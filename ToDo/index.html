@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Todo</title>
+
+        <link href="style.css" rel="stylesheet" >
+        <script src="https://kit.fontawesome.com/3ce1347322.js" crossorigin="anonymous"></script>
+    </head>
+    <body> 
+        <header>
+          <h2 id="listcount">No of important task to do : 4</h2>
+          <div class="divc"><span id="complete">Completed : 1</span>  <span id="notcomplete" >Not Completed : 3</span></div>
+          <form>
+            <input id="myInput" class="todo-input" type="text" value="" placeholder="">
+            <button id="countclick" class="todo-button">Add</button>
+          </form>
+        </header>
+
+        <section>
+         <ul class="container">
+            
+                <div class="todolist">
+                  
+                  <li id="li1"class="list-item">Excercise<input class="checkbtn" id="id1" type="checkbox" name="name" value=""></li>
+                  <li id="li2" class="checked list-item">Breakfast<input class="checkbtn" id="id2" type="checkbox" name="name" value="" checked></li>
+                  <li id="li3"class="list-item">Going To Bank<input class="checkbtn" id="id3" type="checkbox" name="name" value=""></li>
+                  <li id="li4" class="list-item">Attending The Birthday Party<input class="checkbtn" id="id4" type="checkbox" name="name" value=""></li>
+
+                </div>
+            
+              </ul>
+        </section>
+
+        <footer>
+
+        </footer>
+        <script src="./app.js"></script>
+    </body>
+</html>
